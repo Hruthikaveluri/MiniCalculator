@@ -9,8 +9,8 @@ def test_complete_workflow():
     assert result == 15
 
     # # Step 2: Multiply the result by 2
-    # result = calculator.multiply(result, 2)
-    # assert result == 30
+    result = calculator.multiply(result, 2)
+    assert result == 30
 
     # Step 3: Subtract 10
     result = calculator.subtract(result, 10)
